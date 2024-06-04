@@ -1,0 +1,378 @@
+@media (max-width:360px) {
+    .nav-burger{
+      display: block;
+    }
+    .nav-link,.nav-num{
+      display: none;
+    }
+    .header > h1{
+      width: 100%;
+      font-size: 32px;
+      font-weight: 500;
+      line-height: 35.2px;
+      text-align: left;
+    }
+    .header-text{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .header-text >p{
+      margin-bottom: 30px;
+      font-family: "Unbounded", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 24px;
+      text-align: left;
+    }
+    .header-text >p > br{
+      display: none;
+    }
+    .header-text > .btn{
+      color: white;
+      background-color: #3A3B35;
+    }
+    .grid-container{
+      width: 100%;
+      grid-template-columns: 1fr;
+      color: #3A3B35 !important;
+    }
+    .car-img{
+      width: 100%;
+      display: block;
+    }
+    .bg1,.bg2,.bg3,.bg4,.bg5,.bg6{
+      background: none;
+    }
+    .card{
+      width: 100%;
+      padding: 0;
+    }
+    .card > h1{
+      color: #3A3B35;
+      margin: 30px 0 0 30px ;
+    }
+    .card > p{
+      margin: 30px 0 0 30px ;
+      color: #3A3B35;
+    }
+    .car-text{
+      margin: 30px 0 0 30px ;
+      width: 90%;
+      justify-content: flex-start;
+      align-items: flex-start;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .card-num{
+      color: #3A3B35;
+      border: 2px solid #3A3B35;
+    }
+    .car-text > .btn{
+      margin-top: 30px;
+      background-color: #3A3B35;
+      color: white;
+      width: 100%;
+    }
+    .last{
+      display: none;
+    }
+    .first{
+      display: block;
+    }
+    .about_txt{
+      flex-direction: column;
+    }
+    .about_txt > h1{
+      font-family: Unbounded;
+      font-size: 32px;
+      font-weight: 500;
+      line-height: 35.2px;
+      text-align: left;
+      color: #3A3B35;      
+    }
+    .about_txt > p{
+      font-family: Unbounded;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 24px;
+      text-align: left;
+      color: #3A3B35;      
+	}
+	.circle{
+		grid-template-columns: 1fr;
+	}
+  .circle_div > h1{
+    font-family: Unbounded;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 79.36px;
+    text-align: left;    
+  }
+  .circle_div > p{
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19.84px;
+    text-align: left;    
+  }
+  .circle_div_inner > h1{
+    font-family: Unbounded;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 79.36px;
+    text-align: left;
+  }
+  .circle_div_inner > h6{
+    font-family: Unbounded;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.76px;
+    text-align: left;      
+  }
+  .circle_img{
+    top: -100px;
+  }
+  .circle_img > img{
+    width: 100%;
+  }
+  .services_txt > h1{
+    font-family: Unbounded;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 35.2px;
+    text-align: left;    
+  }
+  .services_txt > button{
+    display: none;
+  }
+  .services_img{
+    flex-direction: column;
+    margin: auto;
+    margin-top: 32px;
+    justify-content: center;
+    align-items: center;
+  }
+  .services_div{
+    width: 328px;
+    height: 320px;
+    margin-top: 8px;
+  }
+  .s1{
+    background: url(img/Rectangle\ 16\(1\).png);
+  }
+  .s2{
+    background: url(img/Rectangle\ 16\ \(2\).png);
+  }
+  .s3{
+    background: url(img/Rectangle\ 16\ \(3\).png);
+  }
+  .services_btn{
+    margin-top: 32px;
+    display: inline-block;
+    width: 328px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    font-family: Unbounded;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.36px;
+    text-align: left;
+    color: white;
+    background-color: #3A3C35;
+    text-align: center;
+  }
+  .FAQ{
+    flex-direction: column;
+    margin-top: 60px;
+  }
+  .faq_head{
+    display: none;
+  }
+  .faq_head2{
+    display: block;
+  }
+  .faq_head2 > h1{
+    font-family: Unbounded;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 35.2px;
+    text-align: left;
+  }
+  .faq_btn{
+    display: none;
+  }
+  .faq_div{
+    margin-top: 32px;
+    width: 100%;
+  }
+  .faq_txt > h5{
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.84px;
+    text-align: left;
+  }
+  .txt_faq{
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.84px;
+    text-align: left;
+  }
+  .faq_txtt > p{
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;    
+  }
+  .faq_btn2{
+    width: 328px;
+    height: 50px;
+    border: none;
+    border-radius: 100px;
+    background-color: #3A3C35;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .faq_btn2 > p{
+    font-family: Unbounded;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.36px;
+    text-align: left;
+    color: white;
+  }
+  .map{
+    margin: 0;
+  }
+  .map_img1{
+    display: none;   
+  }
+  .map_img2{
+    display: block;
+    margin-top: 60px;
+  }
+  .map_txt{
+    display: none;
+  }
+  .map_txt2{
+    width: 95%;
+    margin: auto;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .map_txt2 > h1{
+    font-family: Unbounded;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 35.2px;
+    text-align: left;    
+  }
+  .map_link > a{
+    margin-top: 24px;
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;    
+    text-decoration: none;
+  }
+  .map_link > p{
+    margin-top: 16px;
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: left;
+  }
+  .map_btn2{
+    margin-top: 32px;
+    display: inline-block;
+    width: 329px;
+    height: 50px;
+    border-radius: 100px;
+    font-family: Unbounded;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.36px;
+    text-align: center;
+    color: white;
+    background-color: #3A3C35;
+  }
+  footer{
+    margin: 32px auto;
+    width: 98%;
+    flex-direction: column;
+    padding: 5%;
+    align-items: flex-start;
+  }
+  .footer_main{
+    display: none;
+  }
+  .footer_main2{
+    display: block;
+    width: 100%;
+  }
+  .footer_main2 > h3{
+    font-family: Unbounded;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.36px;
+    text-align: left;    
+    padding: 5%;
+  }
+  .footer_second{
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .footer_1st{
+    width: 50%;
+  }
+  .footer_2nd{
+    width: 50%;
+  }
+  .second_link1{
+    padding: 5%;
+  }
+  .footer_2nd > a{
+    padding: 5%;
+  }
+  .footer_link{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer_link > a{
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;    
+  }
+  .footer_link > p{
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: left;    
+  }
+  .footer_link2{
+    width: 100%;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
