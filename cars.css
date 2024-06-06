@@ -97,8 +97,7 @@ nav{
   grid-gap: 2px;
   grid-template-columns: repeat(2,1fr);
   justify-content: center;
-  grid-gap: 150px;
-  margin-top: 150px;
+
 }
 .bg1{
  background: url(img/Rectangle\ 12.png) no-repeat center center/cover;
