@@ -1,0 +1,362 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: url(bg.png) no-repeat center center/cover;
+}
+
+nav{
+  width: 100%;
+  border-bottom: 1px solid #3A3C35;
+}
+.nav-burger{
+  display: none;
+}
+.navbar{
+width: 90%;
+margin: auto;
+padding: 3% 0;  
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.nav-logo > h2{
+  font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+ font-size: 24px;
+ font-weight: 500;
+ line-height: 29.76px;
+ text-align: left;
+ color: #3A3C35;
+}
+.nav-link{
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+.nav-link > a{
+  font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+ font-size: 16px;
+font-weight: 300;
+line-height: 19.84px;
+text-align: left;
+text-decoration: none;
+color: #3A3C35;
+}
+.nav-num > p{
+  font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.84px;
+text-align: left;
+}
+.services{
+	width: 95%;
+	margin: auto;
+    margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+.services_txt{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.services_txt > h1{
+	font-family: Unbounded;
+	font-size: 100px;
+	font-weight: 500;
+	line-height: 100px;
+	text-align: left;
+	color: #3A3B35;	
+}
+.services_txt > button{
+	width: 284px;
+	height: 50px;
+	border-radius: 100px;
+	border: none;
+	background-color: #3A3C35;
+	font-family: Unbounded;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 17.36px;
+	text-align: center;
+	color: white;
+}
+.services_img{
+	margin-top: 60px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
+.services_div{
+	width: 588px;
+	height: 507px;
+	align-content: flex-end;
+}
+.s1{
+	background: url(img/Rectangle\ 16.png);
+}
+.s2{
+	background: url(img/Rectangle\ 17.png);
+}
+.s3{
+	background: url(img/Rectangle\ 18.png);
+}
+.services_div > p{
+	font-family: Unbounded;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 29.76px;
+	text-align: left;
+	color: white;
+	padding: 2%;
+}
+.services_btn{
+	display: none;
+}
+footer{
+	margin: 100px auto;
+	width: 95%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	border-top: 1px solid;
+}
+.footer_main{
+	width: 25%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: column;
+}
+.footer_main > h3{
+	font-family: Unbounded;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 29.76px;
+	text-align: left;
+	color: #3A3C35;
+	padding: 5%;
+}
+.main_link1{
+	font-family: Unbounded;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 14px;
+	text-align: left;
+	color: #3A3B35;
+	padding: 5%;
+}
+.main_link2{
+	font-family: Unbounded;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 14px;
+	text-align: left;
+	color: #3A3B35;
+	padding: 5%;
+}
+.footer_second{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: row;
+}
+.footer_1st{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-content: flex-start;
+	flex-direction: column;
+}
+.second_link1{
+	font-family: Unbounded;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 19.84px;
+	text-align: left;
+	color: #3A3C35;
+	padding: 15%;
+	text-decoration: none;
+}
+.footer_2nd{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: column;
+}
+.footer_2nd > a{
+	font-family: Unbounded;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 19.84px;
+	text-align: left;
+	color: #3A3C35;
+	padding: 15%;
+	text-decoration: none;
+}
+.footer_main2{
+	display: none;
+}
+.footer_link2{
+	display: none;
+}
+.footer_link > a{
+	font-family: Unbounded;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 24px;
+	text-align: left;
+	color: #3A3B35;
+	text-decoration: none;
+}
+.footer_link > p{
+	margin-top: 25px;
+	font-family: Unbounded;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 16px;
+	text-align: left;
+	color: #3A3B35;
+}
+@media (max-width:360px) {
+    .nav-burger{
+      display: block;
+    }
+    .nav-link,.nav-num{
+      display: none;
+    }
+  .services_txt > h1{
+    font-family: Unbounded;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 35.2px;
+    text-align: left;    
+  }
+  .services_txt > button{
+    display: none;
+  }
+  .services_img{
+    flex-direction: column;
+    margin: auto;
+    margin-top: 32px;
+    justify-content: center;
+    align-items: center;
+  }
+  .services_div{
+    width: 328px;
+    height: 320px;
+    margin-top: 8px;
+  }
+  .s1{
+    background: url(img/Rectangle\ 16\(1\).png);
+  }
+  .s2{
+    background: url(img/Rectangle\ 16\ \(2\).png);
+  }
+  .s3{
+    background: url(img/Rectangle\ 16\ \(3\).png);
+  }
+  .services_btn{
+    margin-top: 32px;
+    display: inline-block;
+    width: 328px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    font-family: Unbounded;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.36px;
+    text-align: left;
+    color: white;
+    background-color: #3A3C35;
+    text-align: center;
+  }
+  footer{
+    margin: 32px auto;
+    width: 98%;
+    flex-direction: column;
+    padding: 5%;
+    align-items: flex-start;
+  }
+  .footer_main{
+    display: none;
+  }
+  .footer_main2{
+    display: block;
+    width: 100%;
+  }
+  .footer_main2 > h3{
+    font-family: Unbounded;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.36px;
+    text-align: left;    
+    padding: 5%;
+  }
+  .footer_second{
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .footer_1st{
+    width: 50%;
+  }
+  .footer_2nd{
+    width: 50%;
+  }
+  .second_link1{
+    padding: 5%;
+  }
+  .footer_2nd > a{
+    padding: 5%;
+  }
+  .footer_link{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer_link > a{
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;    
+  }
+  .footer_link > p{
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: left;    
+  }
+  .footer_link2{
+    width: 100%;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

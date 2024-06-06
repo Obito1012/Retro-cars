@@ -63,130 +63,59 @@ header{
 .header{
   width: 90%;
   margin:100px auto;
-}
-.header > h1{
-  font-family: "Unbounded", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-font-size: 124px;
-font-weight: 500;
-line-height: 136.4px;
-text-align: left;
-}
-.header-text{
-  margin-top: 50px;
-  width: 20%;
-  justify-content: space-between;
-  display: flex;
-}
-.header-text > p{
-  font-family: "Unbounded", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-font-size: 16px;
-font-weight: 300;
-line-height: 24px;
-text-align: left;
-}
-.btn{
-  font-family: "Unbounded", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-font-size: 14px;
-font-weight: 300;
-line-height: 17.36px;
-text-align: center;
-border-radius: 30px;
-padding: 3%;
-width: 60%;
-border: 1px solid #3A3C35;
-}
-main{
-  width: 100%;
-}
-.grid-container{
-  width: 100%;
-  display: grid;
-  grid-gap: 2px;
-  grid-template-columns: repeat(2,1fr);
-  justify-content: center;
-}
-.bg1{
- background: url(img/Rectangle\ 12.png) no-repeat center center/cover;
-}
-.bg2{
- background: url(img/Rectangle\ 13.png) no-repeat center center/cover;
-}
-.bg3{
- background: url(img/Rectangle\ 12\ \(2\).png) no-repeat center center/cover;
-}
-.bg4{
- background: url(img/Rectangle\ 12\ \(1\).png) no-repeat center center/cover;
-}
-.bg5{
- background: url(img/Rectangle\ 13\ \(1\).png) no-repeat center center/cover;
-}
-.bg6{
- background: url(img/7016c2ede1e3fc3b358792263629dc44\ 1.png) no-repeat center center/cover;
-}
-.card{
-  height: 60vh;
-  display: flex;
-  flex-direction: column;
-  align-content: flex-end;
-  justify-content: flex-end;
-  padding: 0 0 5% 5%;
-}
-.card > p{
-  font-family: "Unbounded", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-font-size: 16px;
-font-weight: 300;
-line-height: 19.84px;
-text-align: left;
-color: white;
-}
-.card > h1{
-  font-family: "Unbounded", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 29.76px;
-  text-align: left;
-  color: white;
-  margin: 30px 0;
-}
-.car-text {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 35%;
-  gap: 10px;
+  margin: 24px auto;
 }
-.card-num{
-  font-family: "Unbounded", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-font-size: 14px;
-font-weight: 300;
-line-height: 17.36px;
-text-align: center;
-border-radius: 30px;
-padding: 3%;
-width: 60%;
-border: 2px solid white;
-color: white;
+.header > .btn{
+	margin-top: 32px;
+    width: 300px;
+    height: 44px;
+    border-radius: 100px;
+    border: none;
+    background-color: #3A3C35;
+    font-family: Unbounded;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.36px;
+    text-align: center;
+    color: white;
+	display: none;
 }
-.bg-diff{
-  background-color: #3A3B35;
+.header_main{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
 }
-.car-img{
-    display: none;
+.header_main > h1{
+    font-family: Unbounded;
+    font-size: 124px;
+    font-weight: 500;
+    line-height: 136.4px;
+    text-align: left;    
 }
-.first{
-  display: none;
+.header_main > .btn{
+    margin-top: 307px;
+    width: 300px;
+    height: 44px;
+    border-radius: 100px;
+    border: none;
+    background-color: #3A3C35;
+    font-family: Unbounded;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.36px;
+    text-align: center;
+    color: white;
+}
+.header-text > p{
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28.8px;
+    text-align: left;
+    color: #3A3C35;    
 }
 .about_section{
 	width: 100%;
@@ -197,30 +126,16 @@ color: white;
 	margin: auto;
 }
 .about_txt{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-}
-.about_txt > h1{
+	margin: auto 16px;
 	font-family: Unbounded;
-	font-size: 100px;
-	font-weight: 500;
-	line-height: 100px;
-	text-align: left;
-	color: #3A3C35;
-}
-.about_txt > p{
-	font-family: Unbounded;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 300;
-	line-height: 30px;
-	text-align: left;
-	color: #3A3C35;
+	line-height: 24px;
+	text-align: left;	
 }
 .circle{
 	width: 95%;
-	margin: 0 0 0 auto;
+	margin: 32px auto 0 auto;
 	display: grid;
 	grid-template-columns: repeat(3,1fr);
 	justify-content: space-between;
@@ -282,75 +197,6 @@ color: white;
 }
 .circle_img > img{
 	width: 70%;
-}
-.services{
-	width: 95%;
-	margin: auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex-direction: column;
-}
-.services_txt{
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-.services_txt > h1{
-	font-family: Unbounded;
-	font-size: 100px;
-	font-weight: 500;
-	line-height: 100px;
-	text-align: left;
-	color: #3A3B35;	
-}
-.services_txt > button{
-	width: 284px;
-	height: 50px;
-	border-radius: 100px;
-	border: 1px solid #3A3C35;
-	background-color: transparent;
-	font-family: Unbounded;
-	font-size: 14px;
-	font-weight: 500;
-	line-height: 17.36px;
-	text-align: center;
-	color: #3A3B35;
-}
-.services_img{
-	margin-top: 60px;
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex-direction: row;
-}
-.services_div{
-	width: 588px;
-	height: 507px;
-	align-content: flex-end;
-}
-.s1{
-	background: url(img/Rectangle\ 16.png);
-}
-.s2{
-	background: url(img/Rectangle\ 17.png);
-}
-.s3{
-	background: url(img/Rectangle\ 18.png);
-}
-.services_div > p{
-	font-family: Unbounded;
-	font-size: 24px;
-	font-weight: 500;
-	line-height: 29.76px;
-	text-align: left;
-	color: white;
-	padding: 2%;
-}
-.services_btn{
-	display: none;
 }
 .FAQ{
 	margin: auto;
@@ -451,75 +297,6 @@ color: white;
 	color: #3A3C35;
 }
 .faq_btn2{
-	display: none;
-}
-.map{
-	width: 95%;
-	margin: auto;
-}
-.map_txt{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-#1{
-	font-family: Unbounded;
-	font-size: 100px;
-	font-weight: 500;
-	line-height: 100px;
-	text-align: left;
-	color: #3A3B35;	
-}
-#2{
-	font-family: Unbounded;
-	font-size: 100px;
-	font-weight: 500;
-	line-height: 100px;
-	text-align: left;	
-	display: none;
-}
-.map_link > a{
-	font-family: Unbounded;
-	font-size: 24px;
-	font-weight: 500;
-	line-height: 24px;
-	text-align: left;
-	color: #3A3B35;
-	text-decoration: none;
-}
-.map_link > p{
-	margin-top: 25px;
-	font-family: Unbounded;
-	font-size: 16px;
-	font-weight: 300;
-	line-height: 16px;
-	text-align: left;
-	color: #3A3B35;
-}
-.map_btn{
-	margin-top: 70px;
-	width: 284px;
-	height: 50px;
-	border-radius: 100px;
-	border: 1px solid #3A3C35;
-	font-family: Unbounded;
-	font-size: 14px;
-	font-weight: 500;
-	line-height: 17.36px;
-	text-align: center;
-	color: #3A3C35;
-	background-color: transparent;
-}
-.map_img1{
-	margin-top: 60px;
-}
-.map_img2{
-	display: none;
-}
-.map_txt2{
-	display: none;
-}
-.map_btn2{
 	display: none;
 }
 footer{
@@ -633,4 +410,235 @@ footer{
 	line-height: 16px;
 	text-align: left;
 	color: #3A3B35;
+}
+@media (max-width: 360px) {
+    .nav-burger{
+      display: block;
+    }
+    .nav-link,.nav-num{
+      display: none;
+    }
+	.header{
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.header > .btn{
+		display: block;
+	}
+    .header_main > h1{
+		font-family: Unbounded;
+		font-size: 32px;
+		font-weight: 500;
+		line-height: 35.2px;
+		text-align: left;
+    }
+	.header_main > .btn{
+		display: none;
+	}
+    .header-text{
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 20px;
+    }
+    .header-text >p{
+      margin-bottom: 30px;
+      font-family: "Unbounded", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 24px;
+      text-align: left;
+    }
+    .header-text > .btn{
+      color: white;
+      background-color: #3A3B35;
+    }
+    .about_txt{
+      flex-direction: column;
+    }
+    .about_txt > h1{
+      font-family: Unbounded;
+      font-size: 32px;
+      font-weight: 500;
+      line-height: 35.2px;
+      text-align: left;
+      color: #3A3B35;      
+    }
+    .about_txt > p{
+      font-family: Unbounded;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 24px;
+      text-align: left;
+      color: #3A3B35;      
+	}
+	.circle{
+		grid-template-columns: 1fr;
+	}
+  .circle_div > h1{
+    font-family: Unbounded;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 79.36px;
+    text-align: left;    
+  }
+  .circle_div > p{
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19.84px;
+    text-align: left;    
+  }
+  .circle_div_inner > h1{
+    font-family: Unbounded;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 79.36px;
+    text-align: left;
+  }
+  .circle_div_inner > h6{
+    font-family: Unbounded;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.76px;
+    text-align: left;      
+  }
+  .circle_img{
+    top: -100px;
+  }
+  .circle_img > img{
+    width: 100%;
+  }
+  .FAQ{
+    flex-direction: column;
+    margin-top: 60px;
+  }
+  .faq_head{
+    display: none;
+  }
+  .faq_head2{
+    display: block;
+  }
+  .faq_head2 > h1{
+    font-family: Unbounded;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 35.2px;
+    text-align: left;
+  }
+  .faq_btn{
+    display: none;
+  }
+  .faq_div{
+    margin-top: 32px;
+    width: 100%;
+  }
+  .faq_txt > h5{
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.84px;
+    text-align: left;
+  }
+  .txt_faq{
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.84px;
+    text-align: left;
+  }
+  .faq_txtt > p{
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;    
+  }
+  .faq_btn2{
+    width: 328px;
+    height: 50px;
+    border: none;
+    border-radius: 100px;
+    background-color: #3A3C35;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .faq_btn2 > p{
+    font-family: Unbounded;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.36px;
+    text-align: left;
+    color: white;
+  }
+  footer{
+    margin: 32px auto;
+    width: 98%;
+    flex-direction: column;
+    padding: 5%;
+    align-items: flex-start;
+  }
+  .footer_main{
+    display: none;
+  }
+  .footer_main2{
+    display: block;
+    width: 100%;
+  }
+  .footer_main2 > h3{
+    font-family: Unbounded;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.36px;
+    text-align: left;    
+    padding: 5%;
+  }
+  .footer_second{
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .footer_1st{
+    width: 50%;
+  }
+  .footer_2nd{
+    width: 50%;
+  }
+  .second_link1{
+    padding: 5%;
+  }
+  .footer_2nd > a{
+    padding: 5%;
+  }
+  .footer_link{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer_link > a{
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;    
+  }
+  .footer_link > p{
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: left;    
+  }
+  .footer_link2{
+    width: 100%;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }

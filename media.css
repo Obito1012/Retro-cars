@@ -27,9 +27,6 @@
       line-height: 24px;
       text-align: left;
     }
-    .header-text >p > br{
-      display: none;
-    }
     .header-text > .btn{
       color: white;
       background-color: #3A3B35;
