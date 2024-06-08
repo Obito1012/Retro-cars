@@ -22,15 +22,16 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 }
-.nav-logo > h2{
+.nav-logo > a{
   font-family: "Unbounded", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
- font-size: 24px;
- font-weight: 500;
- line-height: 29.76px;
- text-align: left;
- color: #3A3C35;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.76px;
+  text-align: left;
+  color: #3A3C35;
+  text-decoration: none;
 }
 .nav-link{
   display: flex;
@@ -60,7 +61,7 @@ text-align: left;
 .services{
 	width: 95%;
 	margin: auto;
-    margin-top: 50px;
+  margin-top: 50px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -115,14 +116,15 @@ text-align: left;
 .s3{
 	background: url(img/Rectangle\ 18.png);
 }
-.services_div > p{
+.services_div > a{
 	font-family: Unbounded;
 	font-size: 24px;
 	font-weight: 500;
-	line-height: 29.76px;
+	line-height: 60px;
 	text-align: left;
 	color: white;
 	padding: 2%;
+	text-decoration: none;
 }
 .services_btn{
 	display: none;
