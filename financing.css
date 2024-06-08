@@ -83,7 +83,11 @@ main{
     width: 45%;
     border-radius: 10%;
 }
-.img > img{
+.img_1{
+    width: 100%;
+}
+.img_2{
+	display: none;
     width: 100%;
 }
 .txt{
