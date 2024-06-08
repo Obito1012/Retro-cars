@@ -122,15 +122,14 @@ nav{
     justify-content: flex-end;
     padding: 0 0 5% 5%;
 }
-.card > a{
-    font-family: "Unbounded", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 19.84px;
-    text-align: left;
-    color: white;
+.btn > a{
+	font-family: Unbounded;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 17.36px;
+	text-align: left;	
+	color: #3A3C35;
+	text-decoration: none;
 }
 .card > h1{
     font-family: "Unbounded", sans-serif;
