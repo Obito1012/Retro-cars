@@ -295,6 +295,7 @@ footer{
 		width: 100%;
 		justify-content: space-around;
 		align-items: flex-start;
+		padding: 3%;
 	}
 	.footer_1st{
 		width: 50%;
@@ -313,6 +314,7 @@ footer{
 		align-items: flex-start;
 		justify-content: center;
 		flex-direction: column;
+		padding: 5%;
 	}
 	.footer_link > a{
 		font-family: Unbounded;
